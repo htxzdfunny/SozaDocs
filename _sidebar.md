@@ -1,23 +1,11 @@
-- [主页](/)
+- [主页](/)  
 
-- [游玩](/gameplay/)
-    - [开始游戏](/gameplay/how_to_play)
-    - [游戏机制](/gameplay/mechanism)
+- [观前提示](/qa)  
 
-- [制谱](/charting/)
-    - [谱面制作](/charting/charting)
-    - [故事板制作](/charting/storyboarding)
-        - [StoryBoard 格式详解](/charting/storyboard)
-    - [注意事项](/charting/notice)
-    - [资源下载](charting/source)
+- [开始使用](/start)  
 
-- [活动](/events/)
-    - [周边](/events/special)
-    - [比赛](/events/race)
+- [更新日志](/update)
 
-- [更新](/update/)
-    - [Cytoid 更新记录](/update/Cytoid)
-    - [Wiki 更新记录](/update/wiki)
-    
-- [关于](/about/)
+- [模块列表](/plugins)
 
+- [进裙！](https://jq.qq.com/?_wv=1027&k=eyeZ4Gh2)

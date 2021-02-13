@@ -35,7 +35,7 @@ div#app:empty:before {
 }
 
 .progress {
-    background-color: var(--theme-color, #7B69C8);
+    background-color: var(--theme-color, #e92063);
     height          : 2px;
     left            : 0;
     position        : fixed;
@@ -48,7 +48,7 @@ div#app:empty:before {
 
 .search .search-keyword,
 .search a:hover {
-    color: var(--theme-color, #7B69C8)
+    color: var(--theme-color, #e92063)
 }
 
 .search .search-keyword {
@@ -140,11 +140,11 @@ li input[type=checkbox] {
 
 .app-nav a.active,
 .app-nav a:hover {
-    color: var(--theme-color, #7B69C8)
+    color: var(--theme-color, #e92063)
 }
 
 .app-nav a.active {
-    border-bottom: 2px solid var(--theme-color, #7B69C8)
+    border-bottom: 2px solid var(--theme-color, #e92063)
 }
 
 .app-nav li {
@@ -211,7 +211,7 @@ li input[type=checkbox] {
 
 .github-corner svg {
     color : #fff;
-    fill  : var(--theme-color, #7B69C8);
+    fill  : var(--theme-color, #e92063);
     height: 80px;
     width : 80px
 }
@@ -349,7 +349,7 @@ main li {
 }
 
 .sidebar-toggle span {
-    background-color: var(--theme-color, #7B69C8);
+    background-color: var(--theme-color, #e92063);
     display         : block;
     margin-bottom   : 4px;
     width           : 16px;
@@ -693,9 +693,9 @@ section.cover ul {
 
 section.cover .cover-main>p:last-child a {
     border-radius  : 2rem;
-    border         : 1px solid var(--theme-color, #7B69C8);
+    border         : 1px solid var(--theme-color, #e92063);
     box-sizing     : border-box;
-    color          : var(--theme-color, #7B69C8);
+    color          : var(--theme-color, #e92063);
     display        : inline-block;
     font-size      : 1.05rem;
     letter-spacing : .1rem;
@@ -706,7 +706,7 @@ section.cover .cover-main>p:last-child a {
 }
 
 section.cover .cover-main>p:last-child a:last-child {
-    background-color: var(--theme-color, #7B69C8);
+    background-color: var(--theme-color, #e92063);
     color           : #fff
 }
 
@@ -720,12 +720,12 @@ section.cover .cover-main>p:last-child a:hover {
 }
 
 section.cover blockquote>p>a {
-    border-bottom: 2px solid var(--theme-color, #7B69C8);
+    border-bottom: 2px solid var(--theme-color, #e92063);
     transition   : color .3s
 }
 
 section.cover blockquote>p>a:hover {
-    color: var(--theme-color, #7B69C8)
+    color: var(--theme-color, #e92063)
 }
 
 /* .sidebar, */
@@ -765,7 +765,7 @@ body {
 
 .sidebar ul li.active>a {
     border-right: 2px solid;
-    color       : var(--theme-color, #7B69C8);
+    color       : var(--theme-color, #e92063);
     font-weight : 700
 }
 
@@ -785,7 +785,7 @@ body {
 }
 
 .markdown-section a {
-    color      : var(--theme-color, #7B69C8);
+    color      : var(--theme-color, #e92063);
     font-weight: 700
 }
 
@@ -835,7 +835,7 @@ body {
 }
 
 .markdown-section blockquote {
-    border-left : 4px solid var(--theme-color, #7B69C8);
+    border-left : 4px solid var(--theme-color, #e92063);
     color       : #858585;
     margin      : 2em 0;
     padding-left: 20px
@@ -908,7 +908,7 @@ body {
 }
 
 .token.string {
-    color: var(--theme-color, #7B69C8)
+    color: var(--theme-color, #e92063)
 }
 
 .token.selector {
@@ -930,7 +930,7 @@ body {
 .token.control,
 .token.directive,
 .token.unit {
-    color: var(--theme-color, #7B69C8)
+    color: var(--theme-color, #e92063)
 }
 
 .token.function,
@@ -1030,8 +1030,8 @@ pre:after {
     /* Make sure it does not overlap */
     border-width      : 2px;
     border-style      : solid;
-    border-color      : #7B69C8;
-    background-color  : #7B69C8;
+    border-color      : #e92063;
+    background-color  : #e92063;
     color             : #f8f9fa;
     height            : 40px;
     width             : 40px;
@@ -1054,28 +1054,28 @@ pre:after {
 .btn-float-ios {
     border-style      : none!important;
     background-color  : transparent!important;
-    color             : #7B69C8!important;
+    color             : #e92063!important;
 
 }
 
 
 .btn-float:visited {
     color       : #f8f9fa;
-    border-color: #7B69C8;
+    border-color: #e92063;
 }
 
 .btn-float-ios:visited {
-    color       : #7B69C8!important;
+    color       : #e92063!important;
 }
 
 .btn-float:hover {
     background-color: #f8f9fa;
-    color           : #7B69C8;
-    border-color    : #7B69C8;
+    color           : #e92063;
+    border-color    : #e92063;
 }
 
 .btn-float-ios:hover {
-    color           : #7B69C8;
+    color           : #e92063;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1246,12 +1246,12 @@ pre:after {
 }
 
 .dark-theme section.cover .cover-main>p:last-child a {
-    border: 1px solid var(--theme-color, #7B69C8);
-    color : var(--theme-color, #7B69C8);
+    border: 1px solid var(--theme-color, #e92063);
+    color : var(--theme-color, #e92063);
 }
 
 .dark-theme section.cover .cover-main>p:last-child a:last-child {
-    background-color: var(--theme-color, #7B69C8);
+    background-color: var(--theme-color, #e92063);
     color           : #fff;
 }
 
