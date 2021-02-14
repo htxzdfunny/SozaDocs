@@ -14,4 +14,4 @@
 | Cytoid模块 | ctd | 某猫 | 提供Cytoid相关信息查询。| [跳转](./) |
 | MC服务器状态查询 | mc | 某猫 | 提供MineCraft JE/BE版服务器状态查询。| [跳转](./) |
 | 网页截图模块 | webscreen | 某猫 | 快速获取指定网页图片。 | [跳转](./) |
-| Planet ACGN Journey 剧情游戏模块 | acgn | 某猫&Misaka12456 | [默认关闭，状态不可操作]无说明。 | 无 |
+| Planet ACGN Journey 剧情游戏模块 | paj | 某猫&Misaka12456 | [暂未开放]无说明。 | 无 |
