@@ -63,18 +63,27 @@
 > 注：帮助铲车=帮助菜单；我会怒拆额=阿格王朔=账号；退群=解绑；鸡E句NBA=头像；最近紫薯布丁=最近打歌  
 
 ### Osu戳泡泡模块(osu)
-> 祝您滑条必断  
+> 祝您滑条必断（逃  
+
+Supported By Shatnine&沙茶酱&Sayobot&某猫  
 
 `/osu help` -调出帮助菜单  
 `/osu setid <id>` -绑定您的osu账号  
-`/osu pf:[mode] [id/at]` -查某人在某模式的个人信息  
-`/osu pr:[mode] [id/at]` -查某人在某模式杀的歌  
-`/osu mode: <0-3>` -切换你的主模式  
-`/osu 更新个签 <内容>` -更换您pf上的个性签名  
-`/osu 更新背景` -更新您pf的背景  
+`/osu pf[:mode] [id/at]` -查某人在某模式的个人信息  
+`/osu pr[:mode] [id/at]` -查某人在某模式最近一次杀的歌  
+`/osu bp[1-100]` -查你的bestPlay记录(100以内)  
+`/osu mode <0-3>` -切换你的主模式  
+`/osu 更新个签 <内容>` -更换您pf资料卡上的个性签名  
+`/osu 更新背景` -更新您pf资料卡的背景  
+
+> 使用实例:  
+> `/osu setid xiaofang2333` -绑定一个叫做xiaofang2333的账号  
+> `/osu pf htxzdfunny` -查询htxzdfunny在默认模式下的个人资料卡  
+> `/osu pr:1 sayobot` -查询sayobot在taiko模式下的最近打歌  
+> `/osu mode 骂娘` -将您的默认查分模式切换成模式3(即mania)
 
 > 您知道吗：切换主模式的参数既可以是0-3，也可以是以下几种：  
-> [![yfYDgO.png](https://s3.ax1x.com/2021/02/19/yfYDgO.png)](https://imgchr.com/i/yfYDgO)
+> ![yfYDgO.png](https://s3.ax1x.com/2021/02/19/yfYDgO.png)
 
 
 > 本页面尚未完成，当前展示仅为预览版，不代表最终品质。
