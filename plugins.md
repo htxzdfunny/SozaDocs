@@ -13,13 +13,13 @@
 | Arcaea模块 | arc | 某猫 | 提供Arcaea相关信息查询。| [跳转](./plugins?id=arcaea玩蛇模块arc) |
 | Cytoid模块 | ctd | 某猫 | 提供Cytoid相关信息查询。| [跳转](./plugins?id=cytoid铲车模块ctd) |
 | Osu!模块 | osu | 某猫&Shatnine\(629\) | 提供Osu相关信息查询。 | [跳转](./plugins?id=osu戳泡泡模块osu) |
-| MC服务器状态查询 | mc | 某猫 | 提供MineCraft JE/BE版服务器状态查询。| [跳转](./) |
+| MC服务器状态查询 | mc | 某猫 | 提供MineCraft JE/BE版服务器状态查询。| [跳转](./plugins?id=minecraft服务器状态查询mc) |
 | 网页截图模块 | webscreen | 某猫 | 快速获取指定网页图片。 | [跳转](./) |
 | Planet ACGN Journey 剧情游戏模块 | paj | 某猫&Misaka12456 | [暂未开放]无说明。 | 无 |
 
 
 ### 小泽核心(sozacore)  
-这里面有很多奇奇怪怪的东西..小泽也不知道为什么会有这些奇奇怪怪东西..  
+这里面有很多奇奇怪怪的东西..小泽也不知道为什么会有这些奇奇怪怪的东西..  
 #### 主帮助菜单(/z help)
 `/z help [data]` -调出主帮助菜单或请求的帮助菜单  
 `/z rhythm` -调出音游相关功能  
@@ -65,7 +65,7 @@
 ### Osu戳泡泡模块(osu)
 > 祝您滑条必断（逃  
 
-Supported By Shatnine&沙茶酱&Sayobot&某猫  
+Supported By Shatnine & 沙茶酱 & Sayobot & 某猫  
 
 `/osu help` -调出帮助菜单  
 `/osu setid <id>` -绑定您的osu账号  
@@ -85,5 +85,21 @@ Supported By Shatnine&沙茶酱&Sayobot&某猫
 > 您知道吗：切换主模式的参数既可以是0-3，也可以是以下几种：  
 > ![yfYDgO.png](https://s3.ax1x.com/2021/02/19/yfYDgO.png)
 
+
+### MineCraft服务器状态查询(mc)  
+
+`/mc [help]` -模块帮助  
+`/mc bind <je/be> <ip> <port>`  -绑定本群的JE/BE服务器  
+`/mc <je/be> [ip] [port]` -查询一个je/be服务器状态  
+
+> 范例:
+> `/mc bind be mcbe.qmqaq.top 25565` -将一个be服务器绑定到本群  
+> `/mc je` -查本群绑定的je服务器在线状态  
+> `/mc je dabaiyun.net 30412` -查这个je服务器的状态  
+
+> 您知道吗：JE(java)版服务器默认端口为25565  
+
+### 网页截图模块(webscreen)  
+Not open.
 
 > 本页面尚未完成，当前展示仅为预览版，不代表最终品质。
