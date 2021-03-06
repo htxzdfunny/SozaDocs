@@ -16,6 +16,7 @@
 | MC服务器状态查询 | mc | 某猫 | 提供MineCraft JE/BE版服务器状态查询。| [跳转](./plugins?id=minecraft服务器状态查询mc) |
 | 网页截图模块 | webscreen | 某猫 | 快速获取指定网页图片。 | [跳转](./) |
 | Planet ACGN Journey 剧情游戏模块 | paj | 某猫&Misaka12456 | [暂未开放]无说明。 | 无 |
+| Fujao-Time报时模块 | paj | 某猫&冰糖酱(BillZhou233) | 符语报时模块。 | [跳转](./plugins?id=fujao-time贵阳报时模块fjt) |
 
 
 ### 小泽核心(sozacore)  
@@ -29,7 +30,7 @@
 `/z repeat <内容>` -给姐姐（某猫）说小泽的坏话（雾  
 #### 音游类菜单(/z rhythm)
 `/arc help` -Arcaea模块菜单  
-`/ctd help` -Cytoid模块菜单 
+`/ctd help` -Cytoid模块菜单   
 `/osu help` -Osu!模块菜单  
 #### 工具类菜单(/z tools)  
 
@@ -60,12 +61,12 @@
 `/ctd userinfo [at|uid]` -查询阿格王朔详情（暂不可用）  
 `/ctd [info] [at|uid]` -查询最近紫薯布丁  
 
-> 注：帮助铲车=帮助菜单；我会怒拆额=阿格王朔=账号；退群=解绑；鸡E句NBA=头像；最近紫薯布丁=最近打歌  
+**注：帮助铲车=帮助菜单；我会怒拆额=阿格王朔=账号；退群=解绑；鸡E句NBA=头像；最近紫薯布丁=最近打歌**   
 
 ### Osu戳泡泡模块(osu)
 > 祝您滑条必断（逃  
 
-Supported By Shatnine & 沙茶酱 & Sayobot & 某猫  
+*Supported By Shatnine & 沙茶酱 & Sayobot & 某猫*  
 
 `/osu help` -调出帮助菜单  
 `/osu setid <id>` -绑定您的osu账号  
@@ -101,5 +102,22 @@ Supported By Shatnine & 沙茶酱 & Sayobot & 某猫
 
 ### 网页截图模块(webscreen)  
 Not open.
+
+### Fujao-Time贵阳报时模块(fjt)  
+> 您知道吗：本模块为Cytoid定制版，且由于该企划为2020年策划，句子库中部分句子可能已经过于陈旧。  
+
+> 句子库地址[点这](https://github.com/fujao-time/fujaoese-hitokoto)
+
+`/fjt [help]` -调出帮助菜单  
+`/fjt gl add [groupId]` -添加群订阅  
+`/fjt gl del [groupId]` -删除群订阅  
+`/fjt <ver|version>` -获取句子库版本  
+`/fjt get` -获取一条随机fujao  
+`/fjt chanche` -投稿句子
+**注意:使用gladd与gldel时，指定groupId需要权限 ≥ Bot协作者**
+> 范例:
+> `/fjt gl add` -在本群订阅fujao-time报时
+> `/fjt gl del 1145141919` -删除群1145141919的订阅  
+
 
 > 本页面尚未完成，当前展示仅为预览版，不代表最终品质。
