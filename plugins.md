@@ -115,7 +115,7 @@ Not open.
 `/fjt get` -获取一条随机fujao  
 `/fjt chanche` -投稿句子  
 **注意:使用gladd与gldel时，指定groupId需要权限 ≥ Bot协作者**
-> 范例:
+> 范例:  
 > `/fjt gl add` -在本群订阅fujao-time报时  
 > `/fjt gl del 1145141919` -删除群1145141919的订阅  
 
