@@ -11,6 +11,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./site-source/css/style.css" title="vue">
   <link rel="stylesheet" href="./site-source/css/fonts.css">
+  <!-- 百毒统计 -->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5db9599a47093f2626ff63144b56147f";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>  
+      
   <style>
     body.notranload {
         -webkit-transition: none !important;
@@ -121,7 +132,7 @@
         placeholder: '搜索'
       },
       plugins: [
-        //EditOnGithubPlugin.create('https://github.com/username/repo/blob/master/', null, '发现不对劲? 请在 GitHub 上帮助更正'),
+        EditOnGithubPlugin.create('https://github.com/htxzdfunny/SozaDocs/tree/main', null, '发现不对劲? 请在 GitHub 上帮助更正'),
         function (hook, vm) {
           hook.doneEach(async function () {
             loadIMG();
