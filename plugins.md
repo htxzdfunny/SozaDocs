@@ -42,17 +42,24 @@
 ### Arcaea玩蛇模块(arc)
 > 真人面对面收割 美女角色在线掉分 发狂玩蛇新天地  
 
+**使用须知**
+
+> Arcaea是由lowiro limited开发的一款 3D 立体下落式音乐游戏。  
+本模块与 Arcaea，lowiro limited 无从属关系。  
+您应知悉，使用本模块的相关指令将违反 Arcaea 使用条款中的 3.2-4 和 3.2-6，以及 Arcaea 二次创作管理条例。  
+因使用本模块的相关指令而造成的损失，小泽及小泽开发者不予承担任何责任。  
+
 `/arc help` -调出此帮助菜单  
 `/arc bind <arcid>` -绑定您的arcid(指九位数字好友ID 下同)  
 `/arc unbind` -解绑  
 `/arc userinfo [at|arcid]` -查询账号详情  
 `/arc info [at|arcid]` -查询最近打谱  
-/`arc best <曲名> [Future(默认)|Present|Past]` -查询单曲最佳（目前暂不可用）  
+`/arc best <曲名> [Future(默认)|Present|Past]` -查询单曲最佳（目前暂不可用）  
 `/arc b30` -查询best30（目前暂不可用）  
 
 ### Cytoid铲车模块(ctd)
 > 有被踢的觉悟，才有资格写谱   
-> 这个八月的贵阳永远不会怒拆额！！  
+这个八月的贵阳永远不会怒拆额！！  
 
 `/ctd help` -调出此帮助铲车  
 `/ctd bind <uid>` -绑定您的我会怒拆额  
@@ -65,6 +72,12 @@
 
 ### Osu戳泡泡模块(osu)
 > 祝您滑条必断（逃  
+
+**使用须知**  
+
+> Osu!是由peppy (Dean Herbert) 开发的一款Windows平台上的同人节奏游戏。  
+本模块使用了官方提供的osu-api。  
+因使用本模块的相关指令而造成的损失，小泽及开发者 不予承担任何责任。  
 
 *Supported By Shatnine & 沙茶酱 & Sayobot & 某猫*  
 
