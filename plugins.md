@@ -117,6 +117,9 @@
 Not open.
 
 ### Fujao-Time贵阳报时模块(fjt)  
+
+**本模块已全局停用。**  
+
 > 您知道吗：本模块为Cytoid定制版，且由于该企划为2020年策划，句子库中部分句子可能已经过于陈旧。  
 
 > 句子库地址[点这](https://github.com/fujao-time/fujaoese-hitokoto)
