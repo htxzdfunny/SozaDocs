@@ -41,7 +41,7 @@
 
 ### Arcaea玩蛇模块(arc)  
 
-<span class="span-warning">不可用</span>  
+<span class="span-disabled">不可用</span>  
 
 > 真人面对面收割 美女角色在线掉分 发狂玩蛇新天地  
 
@@ -105,7 +105,7 @@
 
 ### MineCraft服务器状态查询(mc)  
 
-<span class="span-warning">不可用</span>  
+<span class="span-disabled">不可用</span>  
 
 `/mc [help]` -模块帮助  
 `/mc bind <je/be> <ip> <port>`  -绑定本群的JE/BE服务器  
@@ -123,7 +123,7 @@ Not open.
 
 ### Fujao-Time贵阳报时模块(fjt)  
 
-<span class="span-warning">不可用</span>  
+<span class="span-disabled">不可用</span>  
 
 > 您知道吗：本模块为Cytoid定制版，且由于该企划为2020年策划，句子库中部分句子可能已经过于陈旧。  
 
