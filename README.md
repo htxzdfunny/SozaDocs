@@ -6,7 +6,8 @@
 小泽/SozaBoT 是一个QQ群 音游向 高性能、高可用、高可靠的「人机嵌合体」，从2020年2月起开始开发。  
 ~~（但是核心和帮助文档现在还没写好，可见其鸽子程度（~~   
 
-<div class="custom-block tip"><p class="custom-block-title">公告</p></br><li>V3版本已转入长期维护，若无重要原因将不会增减功能。</li><li>小泽也开通了爱发电页面！点击下面的图片投喂我www<p><a href="https://afdian.net/@CatNetwork" target="_blank"><img src=".\site-source\images\supportmeonafd.png" width="200px"></a></p></li></div>  
+<div class="custom-block tip"><p class="custom-block-title">公告</p></br><li>喜报！
+小泽V4于2021年6月26开工！</li><li>V3版本已转入长期维护，若无重要原因将不会增减功能。</li><li>小泽也开通了爱发电页面！点击下面的图片投喂我www<p><a href="https://afdian.net/@CatNetwork" target="_blank"><img src=".\site-source\images\supportmeonafd.png" width="200px"></a></p></li></div>  
 
 
 点击[这里](./start.md)以快速开始。  
