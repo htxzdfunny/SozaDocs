@@ -9,7 +9,7 @@
 小泽V4于2021年6月26日开始制作！</li><li>V3版本已转入长期维护，若无重要原因将不会增减功能。</li><li>小泽也开通了爱发电页面！点击下面的图片投喂我www<p><a href="https://afdian.net/@CatNetwork" target="_blank"><img src=".\site-source\images\supportmeonafd.png" width="200px"></a></p></li></div>  
 
 
-点击[这里](./start.md)以快速开始。
+点击[这里](./start.md)以快速开始。  
 点击[这里](./plugins.md)查看模块列表。  
 点击[这里](./update.md)查看更新日志。  
 
