@@ -40,17 +40,6 @@
   }
   </script>
   
-  <!-- 一言 --> 
-  <script>
-    fetch('https://v1.hitokoto.cn')
-      .then(response => response.json())
-      .then(data => {
-        const hitokoto = document.getElementById('hitokoto_text')
-        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-        hitokoto.innerText = data.hitokoto
-      })
-      .catch(console.error)
-  </script>
 
   <style>
     body.notranload {
@@ -198,7 +187,7 @@
             '<footer>',
             '<span>Copyright &copy; 2020 - Present CatNetwork. All rights reserved.</span><br>',
             '</footer>',
-            '<p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>'
+            '<p id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">:D 获取中...</a></p>'
           ].join('');
 
           hook.afterEach(function (html) {
@@ -222,7 +211,17 @@
 
     }
   </script>
-
+  <!-- 一言 --> 
+  <script>
+    fetch('https://v1.hitokoto.cn')
+      .then(response => response.json())
+      .then(data => {
+        const hitokoto = document.getElementById('hitokoto_text')
+        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+        hitokoto.innerText = data.hitokoto
+      })
+      .catch(console.error)
+  </script>
   <script src="./site-source/js/docsify/plugins/search.min.js"></script>
   <script src="./site-source/js/docsify/plugins/docsify-tabs.js"></script>
   <!-- <script src="./site-source/js/docsify/plugins/zoom-image.js"></script> -->
