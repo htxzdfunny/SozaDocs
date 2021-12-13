@@ -4,9 +4,9 @@
 
 - [使用协议](/SLA)  
 
-- [开始使用](/start)  
+- [快速开始](/start)  
 
-- [模块列表](/plugins)  
+- [命令列表](/commands)  
 
 - [更新日志](/update)  
 

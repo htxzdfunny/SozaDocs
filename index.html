@@ -9,7 +9,7 @@
   <title>SozaDocs</title> <!--标题-->
   <link rel="icon" href="https://gitee.com/CatNetwork/SozaDocs/raw/main/favicon.ico"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="keywords" content="小泽,小泽bot,SozaBoT,SozaDocs,arc查分,arcaea,韵律源点,cytoid,cytoid查分,音游,音游机器人"> <!--关键字 自己改-->
+  <meta name="keywords" content="小泽,小泽bot,SozaBoT,SozaDocs,arc查分,arcaea,韵律源点,cytoid,cytoid查分,音游,音游机器人,音游bot,MUGHome,SozaBot"> <!--关键字 自己改-->
   <meta name="description" content="SozaBoT的在线帮助文档 | SozaDocs"> <!--网站描述 自己改-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./site-source/css/style.css" title="vue">
@@ -32,7 +32,13 @@
   <script>
   !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JJYx1hcuRxeh8ZCp",ck:"JJYx1hcuRxeh8ZCp",hashMode: true});
   </script>
-      
+  
+  <!-- 灵雀监控 --> 
+  <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+  <script>
+    new LingQue.Monitor().init({id:"JX2XE9N5cq6Q01Qi",sendSpaPv:true});
+  </script>
+  
   <!-- 断网了 用sw.js --> 
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
@@ -185,7 +191,7 @@
           var footer = [
             '<hr/>',
             '<footer>',
-            '<span>Copyright &copy; 2020 - Present CatNetwork. All rights reserved.</span><br>',
+            '<span>Copyright &copy; 2019 - Present CatNetwork. All rights reserved.</span><br>',
             '</footer>',
             '<p id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">:D 获取中...</a></p>'
           ].join('');
