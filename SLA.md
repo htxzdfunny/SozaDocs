@@ -1,5 +1,5 @@
 # SozaBot 许可与使用协议  
-> 本协议修改自《Ray Anti-Care 许可与使用协议》，原作者 Ray ,已获得原作者授权修改使用。  
+> 本协议修改自《Ray Anti-Care 许可与使用协议》，原作者 Ray（ENDsoft233）
 
 > SozaBot 由 猫网互联 运营，猫云 提供技术支持。
 
