@@ -1,7 +1,9 @@
 # 命令列表  
 
 !> **注意:在阅读本文之前，请您务必先阅读[观前提示](./qa)。**  
+
 ## 基础命令( /z )  
+
 - `/z` 存活测试
 - `/z help` 调出帮助菜单
 - `/z stat|status` 运行状态
@@ -9,14 +11,18 @@
 - `/report <内容>` 问题反馈
 
 ## 哔哩哔哩( /bili )  
+
 部分数据来源：BiliOB观测者 ChieriApi  
+
 - `/bili [help]` 调出模块菜单
 - `/bili gvi <avxxxxx|BVxxxxxxxx>` 获取指定视频信息 (*av两字母必须小写 BV两字母必须大写*)
 - `/bili up <mid>` 查询指定用户信息
 - `/bili hotwords` 获取全站飙升关键词词云
 
 ## Cytoid信息查询( /ctd )  
+
 特别鸣谢:Tigerhix Neo BillZhou233(冰糖酱) Sunset  
+
 - `/ctd help` 调出模块菜单
 - `/ctd ping` 检查伺服器连通性
 - `/ctd bind <uid>` 绑定你的游戏账号
@@ -36,6 +42,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![翻车了](https://cdn.u1.huluxia.com/g4/M03/25/69/rBAAdmG3Qi2AeHWiAABp2Lsn_ww173.png)  
 
 ## MaiMai
+
 模块魔改自：[Diving-Fish/mai-bot](https://github.com/Diving-Fish/mai-bot)  
 
 - `今日舞萌` -看看今天的舞萌运势  
@@ -52,7 +59,9 @@
 !> 注意：使用b40前，请先在[查分器](https://www.diving-fish.com/maimaidx/prober/)导入数据并绑定您的QQ
 
 ## 音游狗老黄历
+
 来自 [@mugtungshing_bot](https://t.me/mugtungshing_bot)  
+
 - `@小泽 /today` 查询您的今日黄历  
 实例：
 
@@ -61,30 +70,36 @@
 !> 请注意：请不要复制别人的命令，这会导致消息中的 at 码转为普通文本，将无法被小泽识别。  
 
 ## 名言警句
-- `/名言警句` 获取一句群友的名言警句 *需要联系开发者手动添加*   
+
+- `/名言警句` 获取一句群友的名言警句 *需要联系开发者手动添加*
 - `/全局名言警句` 随机获取所有群中某个网友的怪话  
 实例：  
 
 ![某maimai群](https://cdn.u1.huluxia.com/g4/M03/25/75/rBAAdmG3SVuASOUfAABLdR1RonU511.png)  
 
 ## 环保排行榜  
+
 （其实就是个计草器 还不准）  
+
 - `/GR` 查看全局环保排行榜  
 - `/GR -g` 查看本群环保排行榜  
 
-![](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3Se6AGvjAAABfFW5jdBI911.png)   
+![image](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3Se6AGvjAAABfFW5jdBI911.png)
 
-![](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3SiiART1UAAAvo1kqzCA204.png)  
+![image](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3SiiART1UAAAvo1kqzCA204.png)  
 
 ## 图片生成  
+
 - `致电<名称> <@某人>` 致电某人
 - `高情商 <内容> 低情商 <内容>` 高低情商
 - `捏<我|QQ|at>` 捏捏头像  
 
 ## 管理命令  
+
 !> 此类命令需要 [Bot协作者] 及以上权限。  
 
 命令前缀：`~`  
+
 - `zsay <text>` 让小泽说话
 - `webapi <text>` 调用 WebMsgApi
 - `boardcast <text>`  全体广播（高危）
