@@ -10,15 +10,6 @@
 - `小泽抱抱` 和小泽抱抱
 - `/report <内容>` 问题反馈
 
-## 哔哩哔哩( /bili )  
-
-部分数据来源：BiliOB观测者 ChieriApi  
-
-- `/bili [help]` 调出模块菜单
-- `/bili gvi <avxxxxx|BVxxxxxxxx>` 获取指定视频信息 (*av两字母必须小写 BV两字母必须大写*)
-- `/bili up <mid>` 查询指定用户信息
-- `/bili hotwords` 获取全站飙升关键词词云
-
 ## Cytoid信息查询( /ctd )  
 
 特别鸣谢:Tigerhix Neo BillZhou233(冰糖酱) Sunset  
@@ -62,6 +53,10 @@
 
 来自 [@mugtungshing_bot](https://t.me/mugtungshing_bot)  
 
+> 热知识：你知道吗？老黄历中的人品值是由 Dice 骰娘网络下发的
+![某Dice文档](https://p0.meituan.net/csc/a5756f2f388bb0ee804d1701782600855858.png)  
+[图片来源](https://v2docs.kokona.tech/zh/latest/User_Manual.html?highlight=jrrp#jrrp)
+
 - `@小泽 /today` 查询您的今日黄历  
 实例：
 
@@ -73,9 +68,6 @@
 
 - `/名言警句` 获取一句群友的名言警句 *需要联系开发者手动添加*
 - `/全局名言警句` 随机获取所有群中某个网友的怪话  
-实例：  
-
-![某maimai群](https://cdn.u1.huluxia.com/g4/M03/25/75/rBAAdmG3SVuASOUfAABLdR1RonU511.png)  
 
 ## 环保排行榜  
 
@@ -84,15 +76,30 @@
 - `/GR` 查看全局环保排行榜  
 - `/GR -g` 查看本群环保排行榜  
 
-![image](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3Se6AGvjAAABfFW5jdBI911.png)
-
-![image](https://cdn.u1.huluxia.com/g4/M03/25/76/rBAAdmG3SiiART1UAAAvo1kqzCA204.png)  
-
 ## 图片生成  
+
+### 基本玩法
 
 - `致电<名称> <@某人>` 致电某人
 - `高情商 <内容> 低情商 <内容>` 高低情商
 - `捏<我|QQ|at>` 捏捏头像  
+
+除此以外，还有一些进阶玩法：  
+
+### 调用 PlantUML 绘图  
+
+[PlantUML中文用户手册](https://plantuml.com/zh/guide)  
+注：如果您是普通用户想要尝试，除非您真的很有耐心，否则还请您移步搜索引擎搜索 `PlantUML快速入门` ，因为这本手册极度详细，目前有 398 页（
+
+使用例子如下：  
+
+```
+@startuml
+Alice -> Bob: test
+@enduml
+```
+
+![实例](https://p1.meituan.net/csc/7cfe10d9f3771cbdb6b5e7c4286e707e12538.png)
 
 ## 管理命令  
 
