@@ -1,4 +1,4 @@
-- [主页](/)  
+- [主页](/ "主页 - SozaDocs")  
 
 - [观前提示](/qa)  
 
@@ -10,6 +10,6 @@
 
 - [更新日志](/update)  
 
-- [进裙！](https://jq.qq.com/?_wv=1027&k=KSIxqTiQ)
+- [进裙！](https://jq.qq.com/?_wv=1027&k=yeKkPwcd)
 
 - [投喂！](https://afdian.net/@CatNetwork)
