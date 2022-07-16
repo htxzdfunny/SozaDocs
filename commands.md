@@ -1,18 +1,34 @@
 # 命令列表  
 
+## 观前提示
 !> **注意:在阅读本文之前，请您务必先阅读[观前提示](./qa)。**  
 
-## 基础命令( /z )  
+但是我猜你不会看 所以我复制一遍（  
+
+必填参数用`<>`包裹。  
+选填参数用`[]`包裹。  
+而`|`代表“或”。
+
+所有的参数之间都以空格分隔，参数是可选的。  
+
+指令其它包含的特殊符号，如 ^（脱字符）、$、/（斜杠）、%（百分号）等，为自动填充的格式或符号，与包裹的符号与竖线一样，并不需要出现在指令中。
+
+实例：  
+`/ctd info htxzfunny -q 3` 这是正确的√。  
+`/z <stat>` 这是错误的×，包裹的符号不需要打出来。  
+`/ctd set mode image|text` 这是错误的×，`image|text`意思是你应该从`image`或者`text`中选择一个填入。
+
+## 基础功能(base)  
 
 - `/z` 存活测试
 - `/z help` 调出帮助菜单
-- `/z stat|status` 运行状态
-- `小泽抱抱` 和小泽抱抱
+- `/z <stat|status>` 运行状态
+- `/z about` 关于小泽Bot
 - `/report <内容>` 问题反馈
 
-## Cytoid信息查询( /ctd )  
+## Cytoid信息查询(ctd)  
 
-特别鸣谢:Tigerhix Neo BillZhou233(冰糖酱) Sunset  
+特别鸣谢:Tigerhix Neo BillZhou233(冰糖酱) Sunset'  
 
 - `/ctd help` 调出模块菜单
 - `/ctd ping` 检查伺服器连通性
@@ -22,16 +38,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;实例：`/ctd pf tigerhix` 查询 "tigerhix" 的个人信息  
 - `/ctd info [uid|@] -q <N>` 查询自己或他人的最近第N条游玩记录(仅ranked mode，N≤10 且 ∈Z)*（开发中 可能不完善）*  
 &nbsp;&nbsp;&nbsp;&nbsp;实例：`/ctd info miyou379 -q 2` 查询 "miyou379" 倒数第二条游玩记录  
-&nbsp;&nbsp;&nbsp;&nbsp;`/ctd info -q 5` 查询绑定账号的倒数第五条游玩记录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/ctd info -q 5` 查询绑定账号的倒数第五条游玩记录  
 - `/ctd` --查询自己的最近游玩记录
 - `/ctd set mode <image|text>` --切换图片/文字模式(仅对RecentPlay生效)*（开发中 可能不完善）*  
 &nbsp;&nbsp;&nbsp;&nbsp;实例：`/ctd set mode image` 将您的默认输出模式改为图片模式  
 &nbsp;&nbsp;&nbsp;&nbsp;![切换图片模式](https://cdn.u1.huluxia.com/g4/M01/25/68/rBAAdmG3QcCANSfLAAA0ypDCusc326.png)  
 
-~~ 当然 存在概率性翻车的可能 ~~  
-
-&nbsp;&nbsp;&nbsp;&nbsp;![翻车了](https://cdn.u1.huluxia.com/g4/M03/25/69/rBAAdmG3Qi2AeHWiAABp2Lsn_ww173.png)  
-
+<!-- 
 ## MaiMai
 
 模块魔改自：[Diving-Fish/mai-bot](https://github.com/Diving-Fish/mai-bot)  
@@ -48,48 +61,21 @@
 - `我是二次元 [用户名]` -查b40
 
 !> 注意：使用b40前，请先在[查分器](https://www.diving-fish.com/maimaidx/prober/)导入数据并绑定您的QQ
+-->
 
-## 音游狗老黄历
-
-来自 [@mugtungshing_bot](https://t.me/mugtungshing_bot)  
-
-> 热知识：你知道吗？老黄历中的人品值是由 Dice 骰娘网络下发的
-![某Dice文档](https://p0.meituan.net/csc/a5756f2f388bb0ee804d1701782600855858.png)  
-[图片来源](https://v2docs.kokona.tech/zh/latest/User_Manual.html?highlight=jrrp#jrrp)
-
-- `@小泽 /today` 查询您的今日黄历  
-实例：
-
-![老黄历](https://cdn.u1.huluxia.com/g4/M03/25/73/rBAAdmG3R-yABPS1AAA9irZXntI887.png)
-
-!> 请注意：请不要复制别人的命令，这会导致消息中的 at 码转为普通文本，将无法被小泽识别。  
-
-## 名言警句
-
-- `/名言警句` 获取一句群友的名言警句 *需要联系开发者手动添加*
-- `/全局名言警句` 随机获取所有群中某个网友的怪话  
-
-## 环保排行榜  
-
-（其实就是个计草器 还不准）  
-
-- `/GR` 查看全局环保排行榜  
-- `/GR -g` 查看本群环保排行榜  
-
-## 图片生成  
+## 图片生成(image)  
 
 ### 基本玩法
 
 - `致电<名称> <@某人>` 致电某人
 - `高情商 <内容> 低情商 <内容>` 高低情商
-- `捏<我|QQ|at>` 捏捏头像  
+- `捏<我|QQ|@某人>` 捏捏某人的头像  
 
 除此以外，还有一些进阶玩法：  
 
 ### 调用 PlantUML 绘图  
 
 [PlantUML中文用户手册](https://plantuml.com/zh/guide)  
-注：如果您是普通用户想要尝试，除非您真的很有耐心，否则还请您移步搜索引擎搜索 `PlantUML快速入门` ，因为这本手册极度详细，目前有 398 页（
 
 使用例子如下：  
 
@@ -99,7 +85,28 @@ Alice -> Bob: test
 @enduml
 ```
 
+以下是一个实例:  
+
 ![实例](https://p1.meituan.net/csc/7cfe10d9f3771cbdb6b5e7c4286e707e12538.png)
+
+## 各种小工具(tool)  
+
+- `/hug|小泽抱|小泽抱抱|抱抱|抱抱小泽` 和小泽抱抱  
+- `/名言警句` 获取本群网友的名人名言  
+- `/全局名言警句` 获取随便一个群的名人名言  
+- `/抽 <抽取人数>` 群抽奖小工具  
+
+## 用户中心(uc)
+
+- `/uc [info]` 进入用户中心
+- `/uc gq <text>` 更新自己的个性签名(30字内)
+- `/uc sign | /签到 | /sign` 每日签到
+- `/uc cancellation | /uc 销号` 彻底删除您在小泽中的所有信息  
+
+## 模块管理器(mm)  
+
+- `/mm query <this|groupId|all> <moduleName|all>` 查询某模块在某处的启用状态
+- `/mm set <this|groupId|all> <moduleName|all>` 设置某模块在某处的启用状态
 
 ## 管理命令  
 
@@ -115,3 +122,5 @@ Alice -> Bob: test
 - `delallcache` 清理垃圾
 
 !> 本页面尚未完成，当前展示仅为预览版，不代表最终品质。  
+
+*更新时间: 2022-7-16 21-06-45*
