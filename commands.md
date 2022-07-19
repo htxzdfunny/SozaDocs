@@ -1,6 +1,7 @@
 # 命令列表  
 
 ## 观前提示
+
 !> **注意:在阅读本文之前，请您务必先阅读[观前提示](./qa)。**  
 
 但是我猜你不会看 所以我复制一遍（  
@@ -63,6 +64,14 @@
 !> 注意：使用b40前，请先在[查分器](https://www.diving-fish.com/maimaidx/prober/)导入数据并绑定您的QQ
 -->
 
+## 群管系统(gm)  
+
+**温馨提示：此模块尚未正式上线**   
+
+- `/gm ` 群管菜单
+- `/gm set welcome [this|groupId]` 开始设置指定群入群欢迎
+- `/gm query welcome [this|groupId]` 查询指定群入群欢迎
+
 ## 图片生成(image)  
 
 ### 基本玩法
@@ -95,8 +104,11 @@ Alice -> Bob: test
 - `/名言警句` 获取本群网友的名人名言  
 - `/全局名言警句` 获取随便一个群的名人名言  
 - `/抽 <抽取人数>` 群抽奖小工具  
+- 急急bot --被动触发，请自行探索
 
 ## 用户中心(uc)
+
+**温馨提示：此模块尚未正式上线**  
 
 - `/uc [info]` 进入用户中心
 - `/uc gq <text>` 更新自己的个性签名(30字内)
@@ -104,6 +116,8 @@ Alice -> Bob: test
 - `/uc cancellation | /uc 销号` 彻底删除您在小泽中的所有信息  
 
 ## 模块管理器(mm)  
+
+**温馨提示：此模块尚未正式上线**  
 
 - `/mm query <this|groupId|all> <moduleName|all>` 查询某模块在某处的启用状态
 - `/mm set <this|groupId|all> <moduleName|all>` 设置某模块在某处的启用状态
@@ -117,10 +131,12 @@ Alice -> Bob: test
 - `zsay <text>` 让小泽说话
 - `webapi <text>` 调用 WebMsgApi
 - `boardcast <text>`  全体广播（高危）
-- `updatebcl` 立即更新 Dice! 云黑名单
+- `updatebcl` 立即更新云黑名单
 - `updatectd` 立即更新 Cytoid 模块所有缓存
 - `delallcache` 清理垃圾
+- `setproxy` 重设代理地址
+- `reload` 重载核心
 
 !> 本页面尚未完成，当前展示仅为预览版，不代表最终品质。  
 
-*更新时间: 2022-7-16 21-06-45*
+*更新时间: 2022-7-19 22-56-21*
