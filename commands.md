@@ -4,7 +4,7 @@
 
 !> **注意:在阅读本文之前，请您务必先阅读[观前提示](./qa)。**  
 
-但是我猜你不会看 所以我复制一遍（  
+**但是我猜你不会看 所以我复制一遍（**
 
 必填参数用`<>`包裹。  
 选填参数用`[]`包裹。  
@@ -19,6 +19,8 @@
 `/z <stat>` 这是错误的×，包裹的符号不需要打出来。  
 `/ctd set mode image|text` 这是错误的×，`image|text`意思是你应该从`image`或者`text`中选择一个填入。
 
+> 手机端用户可以点左下角展开目录
+
 ## 基础功能(base)  
 
 - `/z` 存活测试
@@ -26,8 +28,17 @@
 - `/z <stat|status>` 运行状态
 - `/z about` 关于小泽Bot
 - `/report <内容>` 问题反馈
+- `/dismiss @小泽` 令小泽主动退群（权限要求≥群管理员)
 
-## Cytoid信息查询(ctd)  
+## 音游信息查询(rhythm)
+
+### Arcaea信息查询(arc)  
+
+本模块基于[Project Andreal](https://www.showdoc.com.cn/andrea/)搭建
+
+指令列表请点击[这里](https://www.showdoc.com.cn/andrea/7380927562006836)查看
+
+### Cytoid信息查询(ctd)  
 
 特别鸣谢:Tigerhix Neo BillZhou233(冰糖酱) Sunset'  
 
@@ -45,6 +56,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;实例：`/ctd set mode image` 将您的默认输出模式改为图片模式  
 &nbsp;&nbsp;&nbsp;&nbsp;![切换图片模式](https://cdn.u1.huluxia.com/g4/M01/25/68/rBAAdmG3QcCANSfLAAA0ypDCusc326.png)  
 
+### Project Sekai 信息查询(pjsk)  
+
+本模块基于[Project Andreal](https://www.showdoc.com.cn/andrea/)搭建
+
+指令列表请点击[这里](https://www.showdoc.com.cn/andrea/8032032802988301)查看
 <!-- 
 ## MaiMai
 
@@ -66,12 +82,22 @@
 
 ## 群管系统(gm)  
 
-**温馨提示：此模块尚未正式上线**   
+!> 本模块处于测试阶段，如有问题请及时反馈。  
 
-- `/gm ` 群管菜单
-- `/gm set welcome [this|groupId]` 开始设置指定群入群欢迎
-- `/gm query welcome [this|groupId]` 查询指定群入群欢迎
+- `/gm` 群管菜单
+- `/gm set welcome [this|groupId]` 开始设置指定群入群欢迎  
+  
+入群欢迎可用变量如下:  
 
+- `[qq]`被操作者QQ(纯文本)
+- `[trigqq]`操作者QQ(纯文本)
+- `[atqq]`艾特被操作者QQ
+- `[attrigqq]`艾特操作者QQ
+- `[time]`操作时间
+- `[head]`被操作者头像
+- `[trighead]`操作者头像
+<!-- TODO- `/gm query welcome [this|groupId]` 查询指定群入群欢迎
+-->
 ## 图片生成(image)  
 
 ### 基本玩法
@@ -79,6 +105,7 @@
 - `致电<名称> <@某人>` 致电某人
 - `高情商 <内容> 低情商 <内容>` 高低情商
 - `捏<我|QQ|@某人>` 捏捏某人的头像  
+- `橙黑 <橙色内容> <黑色内容>` 生成一张橙黑图(DDDD
 
 除此以外，还有一些进阶玩法：  
 
@@ -108,12 +135,14 @@ Alice -> Bob: test
 
 ## 用户中心(uc)
 
-**温馨提示：此模块尚未正式上线**  
+!> 本模块处于测试阶段，如有问题请及时反馈。
 
+<!-- TODO
 - `/uc [info]` 进入用户中心
 - `/uc gq <text>` 更新自己的个性签名(30字内)
+- `/uc cancellation | /uc 销号` 彻底删除您在小泽中的所有信息 
+-->
 - `/uc sign | /签到 | /sign` 每日签到
-- `/uc cancellation | /uc 销号` 彻底删除您在小泽中的所有信息  
 
 ## 模块管理器(mm)  
 
@@ -130,13 +159,14 @@ Alice -> Bob: test
 
 - `zsay <text>` 让小泽说话
 - `webapi <text>` 调用 WebMsgApi
-- `boardcast <text>`  全体广播（高危）
+- `boardcast <text>`  全体广播 **（高危）**
 - `updatebcl` 立即更新云黑名单
 - `updatectd` 立即更新 Cytoid 模块所有缓存
 - `delallcache` 清理垃圾
 - `setproxy` 重设代理地址
 - `reload` 重载核心
+- `screenshot` 截图
 
 !> 本页面尚未完成，当前展示仅为预览版，不代表最终品质。  
 
-*更新时间: 2022-7-19 22-56-21*
+*更新时间: 2022-08-05 22-54-21*
