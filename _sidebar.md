@@ -1,14 +1,16 @@
-- [主页](/ "主页 - SozaDocs")  
+- [主页](/ "主页 - SozaDocs")
 
-- [观前提示](/qa)  
+- [观前提示](/qa)
 
-- [使用协议](/SLA)  
+- [使用协议](/SLA)
 
-- [快速开始](/start)  
+- [快速开始](/start)
 
-- [命令列表](/commands)  
+- [命令列表](/commands)
 
-- [更新日志](/update)  
+- [更新日志](/update)
+
+- [时间线](/timeline)
 
 - [进裙！](https://jq.qq.com/?_wv=1027&k=yeKkPwcd)
 

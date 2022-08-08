@@ -60,7 +60,8 @@
 
 本模块基于[Project Andreal](https://www.showdoc.com.cn/andrea/)搭建
 
-指令列表请点击[这里](https://www.showdoc.com.cn/andrea/8032032802988301)查看
+指令列表请点击[这里](https://www.showdoc.com.cn/andrea/8032032802988301)查看  
+
 <!-- 
 ## MaiMai
 
@@ -95,7 +96,8 @@
 - `[attrigqq]`艾特操作者QQ
 - `[time]`操作时间
 - `[head]`被操作者头像
-- `[trighead]`操作者头像
+- `[trighead]`操作者头像  
+
 <!-- TODO- `/gm query welcome [this|groupId]` 查询指定群入群欢迎
 -->
 ## 图片生成(image)  
@@ -141,7 +143,8 @@ Alice -> Bob: test
 - `/uc [info]` 进入用户中心
 - `/uc gq <text>` 更新自己的个性签名(30字内)
 - `/uc cancellation | /uc 销号` 彻底删除您在小泽中的所有信息 
--->
+-->  
+
 - `/uc sign | /签到 | /sign` 每日签到
 
 ## 模块管理器(mm)  
@@ -169,4 +172,4 @@ Alice -> Bob: test
 
 !> 本页面尚未完成，当前展示仅为预览版，不代表最终品质。  
 
-*更新时间: 2022-08-05 22-54-21*
+*更新时间: 2022-8-8 23:11:14*
