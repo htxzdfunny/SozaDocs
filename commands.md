@@ -27,7 +27,7 @@
 - `/z help` 调出帮助菜单
 - `/z <stat|status>` 运行状态
 - `/z about` 关于小泽Bot
-- `/report <内容>` 问题反馈
+- `/report <内容>` 问题反馈（现已弃用，请使用 [在线反馈页面](https://sb-report.qmqaq.top/)）
 - `/dismiss @小泽` 令小泽主动退群（权限要求≥群管理员)
 
 ## 音游信息查询(rhythm)
@@ -58,9 +58,7 @@
 
 ### Project Sekai 信息查询(pjsk)  
 
-本模块基于[Project Andreal](https://www.showdoc.com.cn/andrea/)搭建
-
-指令列表请点击[这里](https://www.showdoc.com.cn/andrea/8032032802988301)查看  
+此模块已移除。
 
 <!-- 
 ## MaiMai
@@ -134,6 +132,11 @@ Alice -> Bob: test
 - `/全局名言警句` 获取随便一个群的名人名言  
 - `/抽 <抽取人数>` 群抽奖小工具  
 - 急急bot --被动触发，请自行探索
+- 网易云歌曲信息解析  
+  支持 `y.music.163.com` ; `music.163.com`两种链接，暂不支持卡片解析。  
+  支持VIP歌曲解析及下载，不支持单曲 / 专辑额外付费歌曲。  
+  ![eg](https://dimg04.c-ctrip.com/images/0Z063120009xwi86v9508.png)
+
 
 ## 用户中心(uc)
 
@@ -169,7 +172,8 @@ Alice -> Bob: test
 - `setproxy` 重设代理地址
 - `reload` 重载核心
 - `screenshot` 截图
+- `leaveg <groupId>` 退出某群
 
 !> 本页面尚未完成，当前展示仅为预览版，不代表最终品质。  
 
-*更新时间: 2022-8-8 23:11:14*
+*更新时间: 2022-9-10 21:49:25*
